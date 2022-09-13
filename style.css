@@ -56,7 +56,7 @@ nav ul li:hover > ul
 nav ul ul li {
  width:230px;
  float:none;
- display:inline-block;
+ display:block;
  position: relative;
 }
 nav ul ul ul li {
