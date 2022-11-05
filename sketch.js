@@ -1,6 +1,7 @@
 let values = [];
 let i = 0;
 let j = 0;
+let k = 0;
 function setup() {
   createCanvas(720, 400);
   
@@ -43,7 +44,8 @@ function bubbleSort() {
 function simulateSorting(){
   for(let i = 0;i<values.length;i++){
     stroke(100, 143, 143);
-     fill(50);
+     fill(k);
+     k += 10;
      rect(i*8 , height, 8, -values[i],20);
    }
 }
